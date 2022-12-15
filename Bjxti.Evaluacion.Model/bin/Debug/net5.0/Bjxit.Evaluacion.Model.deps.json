@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Bjxit.Evaluacion.Model/1.0.0": {
+        "dependencies": {
+          "Community.Core.EnterpriseLibrary": "2.22.7.29"
+        },
+        "runtime": {
+          "Bjxit.Evaluacion.Model.dll": {}
+        }
+      },
+      "Community.Core.EnterpriseLibrary/2.22.7.29": {
+        "runtime": {
+          "lib/netcoreapp3.1/Community.Core.EnterpriseLibrary.dll": {
+            "assemblyVersion": "2.22.7.29",
+            "fileVersion": "2.22.7.29"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bjxit.Evaluacion.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Community.Core.EnterpriseLibrary/2.22.7.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AWizVqyiFonNKo+l0Th6OMgkxUmIWXY3RB/jW0+nLKZxtmkjAyjsN5EHQIxTOQ3ntz6WLJXuyW6dacs8pEZo4Q==",
+      "path": "community.core.enterpriselibrary/2.22.7.29",
+      "hashPath": "community.core.enterpriselibrary.2.22.7.29.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,221 @@
+<h1>Usuarios</h1>
+
+<p>Este modulo ayudara a gestionar a los usuarios</p>
+
+<br />
+
+<p *ngIf="!roles"><em>Cargando, si no tiene roles, genere roles primero...</em></p>
+
+<div *ngIf="roles" class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="card p-0 col-md-12 mt-2">
+                    <h5 class="card-header">
+                        Usuarios
+                    </h5>
+                    <div class="card-body">
+                        <form (ngSubmit)="guardarUser( f )" #f="ngForm" >
+                            <!-- columns -->
+                            <div class="form-group">
+                                <div class="form-row align-items-center">
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">Nombre</label> 
+                                        <div class="form-group row">
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <i class="fa fa-address-card-o"></i>
+                                                  </div>
+                                                </div> 
+                                                <input id="name" [(ngModel)]="selectedUser.name" name="name" placeholder="Ingresar nombre" type="text" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">Apellidos</label> 
+                                        <div class="form-group row">                                        
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <i class="fa fa-address-card-o"></i>
+                                                  </div>
+                                                </div> 
+                                                <input id="lastName" [(ngModel)]="selectedUser.lastName" name="lastName" placeholder="Ingresar apellidos" type="text" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">Telefono</label> 
+                                        <div class="form-group row">                                            
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <i class="fa fa-phone"></i>
+                                                  </div>
+                                                </div> 
+                                                <input id="phoneNumber" [(ngModel)]="selectedUser.phoneNumber" name="phoneNumber" placeholder="Ingresar telefono" type="text" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <hr/>
+                            <!-- columns -->
+                            <div class="form-group">
+                                <div class="form-row align-items-center">
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">Direccion</label> 
+                                        <div class="form-group row">                                            
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <i class="fa fa-map-marker"></i>
+                                                  </div>
+                                                </div> 
+                                                <input id="direction" [(ngModel)]="selectedUser.direction" name="direction" placeholder="Ingresar direccion" type="text" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">C.P</label> 
+                                        <div class="form-group row">                                            
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <span>C.P</span>
+                                                  </div>
+                                                </div> 
+                                                <input id="postalCode" [(ngModel)]="selectedUser.postalCode" name="postalCode" placeholder="Ingresar codigo postal" type="text" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">Email</label> 
+                                        <div class="form-group row">                                            
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <span>@</span>
+                                                  </div>
+                                                </div> 
+                                                <input id="email" [(ngModel)]="selectedUser.email" name="email" placeholder="Ingresar correo" type="email" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!--form group-->
+                            <div class="form-group">
+                                <div class="form-row align-items-center">
+                                    <div class="col-md-6 mb-3">
+                                <!-- Input type text -->
+                                    <label for="password">Contraseña</label>
+                                    <input type="password" class="form-control"  [(ngModel)]="selectedUser.password"  name="password" id="password" placeholder="Contraseña" required>
+                                        </div>
+                                
+                                    <div class="col-md-6 mb-3">
+                                <!-- select -->
+                                    <label for="roleId">Rol</label>
+                                    <select class="custom-select" name="roleId"  [(ngModel)]="selectedUser.roleId" required  id="roleId">                                        
+                                        <option *ngFor="let role of roles" [value]="role.roleId" [selected]= "1"  >
+                                            {{role.name}}
+                                        </option>
+                                    </select>                                       
+                                </div>
+                                
+                                </div>
+                                
+                                </div>
+                                
+                                
+
+                            <!-- boton success largo en medio  -->
+                            
+
+                            <div class="form-group ">
+                                <div class="form-row align-items-center">
+                                    <div class="col-md-4 mb-3">
+                                    </div>
+                                    <div class="col-md-4 mb-3 text-center">
+                                        <button type="submit"  class="btn btn-success btn-md btn-block">Guardar  <i class="fa fa-save"></i></button>
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="card p-0 col-md-12 mt-2">
+                    <h5 class="card-header">
+                        Usuarios registrados
+                    </h5>
+                    <div class="card-body">
+                        <p *ngIf="!users"><em>Cargando...</em></p>
+
+                        <table id="tbProduct" class='table table-responsive-sm  ' aria-labelledby="tableLabel" *ngIf="users">
+                            <thead class="bg-dark text-white">
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Direccion</th>
+                                    <th>Telefono</th>
+                                    <th>Correo</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let user of users">
+                                    <td>{{ user.name }} {{ user.lastName }}</td>
+                                    <td>{{ user.direction }} C.p: {{ user.postalCode }}</td>
+                                    <td>{{ user.phoneNumber }}</td>
+                                    <td>{{ user.email }}</td>
+                                    <td>
+                                        <button type="button" class="btn btn-warning" (click)="updateUser(user)">Editar <i
+                                                class="fa fa-edit"></i></button>
+                                        
+                                            
+                                        <button type="button" class="btn btn-danger ml-1 "
+                                            (click)="deleteUser(user)"><span class="glyphicon glyphicon-trash"></span>
+                                            Eliminar <i class="fa fa-trash-o"></i></button>                                                                                   
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

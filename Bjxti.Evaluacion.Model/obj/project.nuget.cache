@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4ozuWmlDHFups7N1F2mp1v+M2V0jDjP0TPB4MlCja62RWLaBZVqzME7JEZCO0ANOIU9i2TGwb8OgUq+BTVGFHQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\franc\\source\\repos\\BJXITEvaluacion\\Bjxti.Evaluacion.Model\\Bjxit.Evaluacion.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\franc\\.nuget\\packages\\community.core.enterpriselibrary\\2.22.7.29\\community.core.enterpriselibrary.2.22.7.29.nupkg.sha512"
+  ],
+  "logs": []
+}

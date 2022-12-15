@@ -1,0 +1,201 @@
+<h1>Clientes</h1>
+
+<p>Este modulo ayudara a gestionar a los cliente</p>
+
+<br />
+
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="card p-0 col-md-12 mt-2">
+                    <h5 class="card-header">
+                        Clientes
+                    </h5>
+                    <div class="card-body">
+                        <form (ngSubmit)="guardarClient( f )" #f="ngForm" >
+                            <!-- columns -->
+                            <div class="form-group">
+                                <div class="form-row align-items-center">
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">Nombre</label> 
+                                        <div class="form-group row">
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <i class="fa fa-address-card-o"></i>
+                                                  </div>
+                                                </div> 
+                                                <input id="name" [(ngModel)]="selectedClient.name" name="name" placeholder="Ingresar nombre" type="text" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">Apellidos</label> 
+                                        <div class="form-group row">                                        
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <i class="fa fa-address-card-o"></i>
+                                                  </div>
+                                                </div> 
+                                                <input id="lastName" [(ngModel)]="selectedClient.lastName" name="lastName" placeholder="Ingresar apellidos" type="text" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">Telefono</label> 
+                                        <div class="form-group row">                                            
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <i class="fa fa-phone"></i>
+                                                  </div>
+                                                </div> 
+                                                <input id="phoneNumber" [(ngModel)]="selectedClient.phoneNumber" name="phoneNumber" placeholder="Ingresar telefono" type="text" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <hr/>
+                            <!-- columns -->
+                            <div class="form-group">
+                                <div class="form-row align-items-center">
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">Direccion</label> 
+                                        <div class="form-group row">                                            
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <i class="fa fa-map-marker"></i>
+                                                  </div>
+                                                </div> 
+                                                <input id="direction" [(ngModel)]="selectedClient.direction" name="direction" placeholder="Ingresar direccion" type="text" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">C.P</label> 
+                                        <div class="form-group row">                                            
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <span>C.P</span>
+                                                  </div>
+                                                </div> 
+                                                <input id="postalCode" [(ngModel)]="selectedClient.postalCode" name="postalCode" placeholder="Ingresar codigo postal" type="text" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                        <label for="txtExistences" class="col-4 col-form-label">Email</label> 
+                                        <div class="form-group row">                                            
+                                            <div class="col-8">
+                                              <div class="input-group">
+                                                <div class="input-group-prepend">
+                                                  <div class="input-group-text">
+                                                    <span>@</span>
+                                                  </div>
+                                                </div> 
+                                                <input id="email" [(ngModel)]="selectedClient.email" name="email" placeholder="Ingresar correo" type="email" required="requiered" class="form-control">
+                                              </div>
+                                            </div>
+                                          </div> 
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <!-- boton success largo en medio  -->
+                            
+
+                            <div class="form-group ">
+                                <div class="form-row align-items-center">
+                                    <div class="col-md-4 mb-3">
+                                    </div>
+                                    <div class="col-md-4 mb-3 text-center">
+                                        <button type="submit"  class="btn btn-success btn-md btn-block">Guardar  <i class="fa fa-save"></i></button>
+                                    </div>
+
+                                    <div class="col-md-4 mb-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="card p-0 col-md-12 mt-2">
+                    <h5 class="card-header">
+                        Clientes registrados
+                    </h5>
+                    <div class="card-body">
+                        <p *ngIf="!clients"><em>Cargando...</em></p>
+
+                        <table id="tbProduct" class='table table-responsive-sm  ' aria-labelledby="tableLabel" *ngIf="clients">
+                            <thead class="bg-dark text-white">
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Direccion</th>
+                                    <th>Telefono</th>
+                                    <th>Correo</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr *ngFor="let client of clients">
+                                    <td>{{ client.name }} {{ client.lastName }}</td>
+                                    <td>{{ client.direction }} cp: {{ client.postalCode }}</td>
+                                    <td>{{ client.phoneNumber }}</td>
+                                    <td>{{ client.email }}</td>
+                                    <td>
+                                        <button type="button" class="btn btn-warning" (click)="editClient(client)">Editar <i
+                                                class="fa fa-edit"></i></button>
+                                        
+                                            
+                                        <button type="button" class="btn btn-danger ml-1 "
+                                            (click)="deleteClient(client)"><span class="glyphicon glyphicon-trash"></span>
+                                            Eliminar <i class="fa fa-trash-o"></i></button>
+                                            
+                                       
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                      
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>

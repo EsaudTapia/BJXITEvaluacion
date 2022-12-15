@@ -1,0 +1,12 @@
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\bin\Debug\net5.0\Bjxit.Evaluacion.Model.deps.json
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\bin\Debug\net5.0\Bjxit.Evaluacion.Model.dll
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\bin\Debug\net5.0\Bjxit.Evaluacion.Model.pdb
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\obj\Debug\net5.0\Bjxit.Evaluacion.Model.csproj.AssemblyReference.cache
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\obj\Debug\net5.0\Bjxit.Evaluacion.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\obj\Debug\net5.0\Bjxit.Evaluacion.Model.AssemblyInfoInputs.cache
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\obj\Debug\net5.0\Bjxit.Evaluacion.Model.AssemblyInfo.cs
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\obj\Debug\net5.0\Bjxit.Evaluacion.Model.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\obj\Debug\net5.0\Bjxit.Evaluacion.Model.dll
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\obj\Debug\net5.0\refint\Bjxit.Evaluacion.Model.dll
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\obj\Debug\net5.0\Bjxit.Evaluacion.Model.pdb
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxti.Evaluacion.Model\obj\Debug\net5.0\ref\Bjxit.Evaluacion.Model.dll

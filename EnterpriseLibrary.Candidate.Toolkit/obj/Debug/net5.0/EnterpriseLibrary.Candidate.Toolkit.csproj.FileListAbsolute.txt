@@ -1,0 +1,12 @@
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\bin\Debug\net5.0\EnterpriseLibrary.Candidate.Toolkit.deps.json
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\bin\Debug\net5.0\EnterpriseLibrary.Candidate.Toolkit.dll
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\bin\Debug\net5.0\EnterpriseLibrary.Candidate.Toolkit.pdb
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\obj\Debug\net5.0\EnterpriseLibrary.Candidate.Toolkit.csproj.AssemblyReference.cache
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\obj\Debug\net5.0\EnterpriseLibrary.Candidate.Toolkit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\obj\Debug\net5.0\EnterpriseLibrary.Candidate.Toolkit.AssemblyInfoInputs.cache
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\obj\Debug\net5.0\EnterpriseLibrary.Candidate.Toolkit.AssemblyInfo.cs
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\obj\Debug\net5.0\EnterpriseLibrary.Candidate.Toolkit.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\obj\Debug\net5.0\EnterpriseLibrary.Candidate.Toolkit.dll
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\obj\Debug\net5.0\refint\EnterpriseLibrary.Candidate.Toolkit.dll
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\obj\Debug\net5.0\EnterpriseLibrary.Candidate.Toolkit.pdb
+C:\Users\franc\source\repos\BJXITEvaluacion\EnterpriseLibrary.Candidate.Toolkit\obj\Debug\net5.0\ref\EnterpriseLibrary.Candidate.Toolkit.dll

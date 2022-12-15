@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Community.Core.EnterpriseLibrary" Version="2.22.7.29" />
+  </ItemGroup>
+
+  <ItemGroup>
+    
+    <ProjectReference Include="..\Bjxit.Evaluacion.DataAccess\Bjxit.Evaluacion.DataAccess.csproj" />
+    <ProjectReference Include="..\Bjxti.Evaluacion.Model\Bjxit.Evaluacion.Model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\bin\Debug\net5.0\Bjxit.Evaluacion.Logic.deps.json
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\bin\Debug\net5.0\Bjxit.Evaluacion.Logic.dll
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\bin\Debug\net5.0\Bjxit.Evaluacion.Logic.pdb
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\bin\Debug\net5.0\Bjxit.Evaluacion.DataAccess.dll
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\bin\Debug\net5.0\Bjxit.Evaluacion.Model.dll
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\bin\Debug\net5.0\Bjxit.Evaluacion.DataAccess.pdb
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\bin\Debug\net5.0\Bjxit.Evaluacion.Model.pdb
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\obj\Debug\net5.0\Bjxit.Evaluacion.Logic.csproj.AssemblyReference.cache
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\obj\Debug\net5.0\Bjxit.Evaluacion.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\obj\Debug\net5.0\Bjxit.Evaluacion.Logic.AssemblyInfoInputs.cache
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\obj\Debug\net5.0\Bjxit.Evaluacion.Logic.AssemblyInfo.cs
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\obj\Debug\net5.0\Bjxit.Evaluacion.Logic.csproj.CoreCompileInputs.cache
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\obj\Debug\net5.0\Bjxit.Evaluacion.Logic.csproj.CopyComplete
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\obj\Debug\net5.0\Bjxit.Evaluacion.Logic.dll
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\obj\Debug\net5.0\refint\Bjxit.Evaluacion.Logic.dll
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\obj\Debug\net5.0\Bjxit.Evaluacion.Logic.pdb
+C:\Users\franc\source\repos\BJXITEvaluacion\Bjxit.Evaluacion.Logic\obj\Debug\net5.0\ref\Bjxit.Evaluacion.Logic.dll
